@@ -67,6 +67,6 @@ You can install the app directly on your Android phone without using a computer.
 ## © Copyright & Credits
 **Developed by:**
 
-MOHAMAD AZREEZ DANIEL BIN MD TARMIZ
+MOHAMAD AZREEZ DANIEL BIN MD TARMIZI
 
 © 2025 DivCount. All Rights Reserved.
