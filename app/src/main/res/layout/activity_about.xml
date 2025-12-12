@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F9FA">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/gradient_header">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="10dp"
+            app:tint="#FFFFFF"
+            android:contentDescription="Back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bg_input_box"
+        android:padding="30dp"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/app_logo"
+            android:contentDescription="DivCount Icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DivCount"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginTop="16dp"/>
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:background="#00BFA5"
+            android:layout_marginVertical="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#555555"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOHAMAD AZREEZ DANIEL\nBIN MD TARMIZI"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student ID: 2023213788"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#555555"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course: ICT602 / CDCS2405A"
+            android:textSize="14sp"
+            android:layout_marginTop="3dp"
+            android:textColor="#555555"/>
+
+        <Button
+            android:id="@+id/btnGithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit GitHub Repository"
+            android:layout_marginTop="25dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/gradient_button"
+            app:backgroundTint="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2025 DivCount. All Rights Reserved  •  v1.0"
+            android:layout_marginTop="30dp"
+            android:textSize="12sp"
+            android:textColor="#999999"/>
+    </LinearLayout>
+</LinearLayout>
