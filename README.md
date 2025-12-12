@@ -27,7 +27,7 @@ The app instantly computes the total dividend earned, helping users make smarter
 ## 📸 Screenshots
 *(Upload your screenshots to the `screenshots` folder in your project)*
 
-| Splash Screen | Calculator Home | Side Menu | About Page |
+| Launch Screen | Calculator | Side Menu | About Page |
 |:---:|:---:|:---:|:---:|
 | ![Splash](screenshots/Screenshot_Splash.png) | ![Home](screenshots/Screenshot_Home.png) | ![Menu](screenshots/Screenshot_Menu.png) | ![About](screenshots/Screenshot_About.png) |
 
